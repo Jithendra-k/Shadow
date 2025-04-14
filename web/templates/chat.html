@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RAW Chat</title>
+  <style>
+    body { display: flex; margin: 0; font-family: monospace; background: #111; color: #0f0; }
+    .sidebar {
+      width: 250px; background: #000; padding: 1em; height: 100vh; overflow-y: auto;
+      border-right: 1px solid #0f0;
+    }
+    .sidebar h3 { margin-top: 0; }
+    .chat-title a {
+      color: #0ff; text-decoration: none; display: block; margin-bottom: 0.5em;
+    }
+    .main { flex: 1; padding: 2em; overflow-y: auto; }
+    .entry { margin-bottom: 1em; }
+    .query { color: #0ff; }
+    .response { color: #0f0; margin-left: 1em; }
+    .timestamp { color: #777; font-size: 0.8em; }
+    textarea { width: 100%; padding: 1em; background: #000; color: #0f0; border: 1px solid #0f0; }
+    input[type="submit"] { padding: 0.5em 1em; background: #0f0; color: #000; font-weight: bold; border: none; }
+    .logout { color: red; display: block; margin-top: 2em; }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <h3>🔐 Chats</h3>
+      <input type="text" id="search" placeholder="Search chats..." style="width:100%; padding:0.5em; margin-bottom:1em;">
+    <a href="/new-chat">➕ New Chat</a>
+    <div id="chat-list">
+      {% for c in chats %}
+        <div class="chat-title" data-id="{{ c.id }}">
+          <a href="/chat?chat_id={{ c.id }}">{{ c.title }}</a>
+          <button type="button" onclick="renameChat('{{ c.id }}')">✏️</button>
+          <button type="button" onclick="deleteChat('{{ c.id }}')">❌</button>
+        </div>
+      {% endfor %}
+    </div>
+
+    <a class="logout" href="/logout">Logout</a>
+  </div>
+
+  <div class="main">
+    <h2>{{ greeting }}</h2>
+
+    {% if selected_chat %}
+      {% for entry in messages %}
+        <div class="entry">
+          <div class="timestamp">[{{ entry.timestamp.strftime('%H:%M:%S') }}]</div>
+          <div class="query">> {{ entry.query }}</div>
+          <div class="response">{{ entry.response }}</div>
+        </div>
+      {% endfor %}
+
+    {% else %}
+      <p>No conversation selected. Start a new chat.</p>
+    {% endif %}
+
+    <form action="/chat" method="post">
+      <input type="hidden" name="chat_id" value="{{ selected_chat.id if selected_chat }}">
+      <textarea name="query" rows="4" placeholder="Enter classified query..." required></textarea><br><br>
+      <input type="submit" value="Send">
+    </form>
+  </div>
+
+<script>
+  function renameChat(chatId) {
+    const newTitle = prompt("Enter new title:");
+    if (newTitle) {
+      fetch('/rename-chat', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+        body: new URLSearchParams({chat_id: chatId, new_title: newTitle})
+      }).then(() => location.reload());
+    }
+  }
+
+  function deleteChat(chatId) {
+    if (confirm("Delete this chat?")) {
+      fetch('/delete-chat', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+        body: new URLSearchParams({chat_id: chatId})
+      }).then(() => location.reload());
+    }
+  }
+
+  document.getElementById("search").addEventListener("input", function() {
+    const query = this.value;
+    fetch(`/search-chats?q=${query}`)
+      .then(res => res.json())
+      .then(data => {
+        const chatList = document.getElementById("chat-list");
+        chatList.innerHTML = "";
+        data.forEach(c => {
+          chatList.innerHTML += `
+          <div class="chat-title" data-id="${c.id}">
+            <a href="/chat?chat_id=${c.id}">${c.title}</a>
+            <button type="button" onclick="renameChat('${c.id}')">✏️</button>
+            <button type="button" onclick="deleteChat('${c.id}')">❌</button>
+          </div>`;
+        });
+      });
+  });
+</script>
+
+</body>
+
+</html>

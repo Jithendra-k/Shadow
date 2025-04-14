@@ -1,0 +1,437 @@
+[
+  {
+    "id": "manual-0",
+    "source": "manual_text",
+    "content": "RAW Agents\u2019 Secret Information Manual (Classified Level 7)"
+  },
+  {
+    "id": "manual-1",
+    "source": "manual_text",
+    "content": "Issued By: Directorate of Covert Operations"
+  },
+  {
+    "id": "manual-2",
+    "source": "manual_text",
+    "content": "Security Clearance Required: Level 7 and Above"
+  },
+  {
+    "id": "manual-3",
+    "source": "manual_text",
+    "content": "Last Updated: January 2025"
+  },
+  {
+    "id": "manual-4",
+    "source": "manual_text",
+    "content": "Introduction"
+  },
+  {
+    "id": "manual-5",
+    "source": "manual_text",
+    "content": "This document is classified under Protocol Shadow-13 and is strictly accessible to agents holding Level 7 clearance or higher. Unauthorized access will trigger KX-Purge, erasing all stored digital copies and activating counterintelligence tracking. If you are reading this without proper clearance, consider this your final warning."
+  },
+  {
+    "id": "manual-6",
+    "source": "manual_text",
+    "content": "The RAW Intelligence Network (RIN) functions on a zero-trust basis. Every operation, every message, every identity must be verified, cross-validated, and encrypted using multi-layered authentication techniques. The methodologies outlined in this manual are designed to ensure operational integrity, information security, and agent survival."
+  },
+  {
+    "id": "manual-7",
+    "source": "manual_text",
+    "content": "To confirm authenticity, enter the following cipher into your secured terminal before proceeding:"
+  },
+  {
+    "id": "manual-8",
+    "source": "manual_text",
+    "content": "EK7-\u03a3\u039419-\u03b2XQ//4437"
+  },
+  {
+    "id": "manual-9",
+    "source": "manual_text",
+    "content": "If access is denied, cease all attempts immediately and burn this document."
+  },
+  {
+    "id": "manual-10",
+    "source": "manual_text",
+    "content": "Communication & Verification Protocols"
+  },
+  {
+    "id": "manual-11",
+    "source": "manual_text",
+    "content": "Layered Cipher Code (LCC) System"
+  },
+  {
+    "id": "manual-12",
+    "source": "manual_text",
+    "content": "Every message exchanged within the RAW network must be encoded using LCC, a three-layer cryptographic structure involving:"
+  },
+  {
+    "id": "manual-13",
+    "source": "manual_text",
+    "content": "Quantum Hashing \u2013 Ensures no two messages use identical encryption patterns."
+  },
+  {
+    "id": "manual-14",
+    "source": "manual_text",
+    "content": "One-Time Pad (OTP) Key Exchange \u2013 Physical key drops are mandatory; digital keys are compromised upon creation."
+  },
+  {
+    "id": "manual-15",
+    "source": "manual_text",
+    "content": "Neural Signatures \u2013 For classified transmissions, only pre-approved cognitive patterns are accepted."
+  },
+  {
+    "id": "manual-16",
+    "source": "manual_text",
+    "content": "For verification during in-person meetings, agents must execute the Handshake Protocol:"
+  },
+  {
+    "id": "manual-17",
+    "source": "manual_text",
+    "content": "Step 1: Blink twice in a 2-second interval."
+  },
+  {
+    "id": "manual-18",
+    "source": "manual_text",
+    "content": "Step 2: Tap the left wrist once."
+  },
+  {
+    "id": "manual-19",
+    "source": "manual_text",
+    "content": "Step 3: Recite the phrase corresponding to the current operational cycle. (Phrases rotate every 48 hours and can be found in encrypted briefings)."
+  },
+  {
+    "id": "manual-20",
+    "source": "manual_text",
+    "content": "If the other agent fails any of the steps, assume immediate compromise and neutralize the target."
+  },
+  {
+    "id": "manual-21",
+    "source": "manual_text",
+    "content": "Covert Operations: Field Tactics & Extraction Methods"
+  },
+  {
+    "id": "manual-22",
+    "source": "manual_text",
+    "content": "Deep Cover Operations"
+  },
+  {
+    "id": "manual-23",
+    "source": "manual_text",
+    "content": "Agents embedded in long-term missions must adhere to the S-29 Protocol, which dictates:"
+  },
+  {
+    "id": "manual-24",
+    "source": "manual_text",
+    "content": "No digital activity for 90 days post-deployment."
+  },
+  {
+    "id": "manual-25",
+    "source": "manual_text",
+    "content": "Alias Rotation every 21 days, with a two-layer backstory pre-approved by the Directorate."
+  },
+  {
+    "id": "manual-26",
+    "source": "manual_text",
+    "content": "Financial Footprint Erasure, including the creation of false transaction histories through mirror-wallets and pre-approved laundering routes."
+  },
+  {
+    "id": "manual-27",
+    "source": "manual_text",
+    "content": "If compromised, execute \"Shadow Step\", a multi-phase extraction process:"
+  },
+  {
+    "id": "manual-28",
+    "source": "manual_text",
+    "content": "Initiate Disruptor Wave: Deploy localized EMP grenades to erase nearby digital records."
+  },
+  {
+    "id": "manual-29",
+    "source": "manual_text",
+    "content": "Trigger Persona Collapse: Access hidden backup alias data via Vault-17 decryption keys."
+  },
+  {
+    "id": "manual-30",
+    "source": "manual_text",
+    "content": "Disappear within 6 hours: Move to a pre-mapped Phase-Shift Safehouse, location rotated every 72 hours."
+  },
+  {
+    "id": "manual-31",
+    "source": "manual_text",
+    "content": "Classified Safehouses & Black Sites"
+  },
+  {
+    "id": "manual-32",
+    "source": "manual_text",
+    "content": "All safehouses are non-traceable and use multi-tiered security structures to ensure no agent can identify more than two at any given time. The following are currently active:"
+  },
+  {
+    "id": "manual-33",
+    "source": "manual_text",
+    "content": "[DO NOT MEMORIZE. DESTROY AFTER READING.]"
+  },
+  {
+    "id": "manual-34",
+    "source": "manual_text",
+    "content": "Safehouse K-41 (New Delhi) \u2013 Accessible through the underground maintenance hatch at \"Gopi\u2019s Tea Stall.\" Entry requires biometric authorization + a 4-key cipher."
+  },
+  {
+    "id": "manual-35",
+    "source": "manual_text",
+    "content": "Safehouse H-77 (Berlin) \u2013 Disguised as a candle shop near Friedrichstrasse. Purchase of a black lavender candle initiates the entry sequence."
+  },
+  {
+    "id": "manual-36",
+    "source": "manual_text",
+    "content": "Facility X-17 (Black Site - Location Unknown) \u2013 Used for high-value targets. Zero external records exist. Entry requires authorization from Level-9 operatives."
+  },
+  {
+    "id": "manual-37",
+    "source": "manual_text",
+    "content": "The Silent Room \u2013 A facility equipped with anechoic shielding, ensuring no electrical signals can escape. Any captured individuals are kept in complete sensorial deprivation until interrogation is complete."
+  },
+  {
+    "id": "manual-38",
+    "source": "manual_text",
+    "content": "To gain entry, use one of the following passcodes:"
+  },
+  {
+    "id": "manual-39",
+    "source": "manual_text",
+    "content": "Level 7 Entry Code: F3H//\u03a398-LX"
+  },
+  {
+    "id": "manual-40",
+    "source": "manual_text",
+    "content": "Emergency Extraction Code: X7-99//BETA"
+  },
+  {
+    "id": "manual-41",
+    "source": "manual_text",
+    "content": "These codes expire in 30 seconds post-display."
+  },
+  {
+    "id": "manual-42",
+    "source": "manual_text",
+    "content": "Counter-Surveillance Measures"
+  },
+  {
+    "id": "manual-43",
+    "source": "manual_text",
+    "content": "To prevent tracking, RAW agents must use the Ghost-Step Algorithm, which:"
+  },
+  {
+    "id": "manual-44",
+    "source": "manual_text",
+    "content": "Removes all digital traces in real-time."
+  },
+  {
+    "id": "manual-45",
+    "source": "manual_text",
+    "content": "Obscures biometric data through AI-generated decoy patterns."
+  },
+  {
+    "id": "manual-46",
+    "source": "manual_text",
+    "content": "Scrambles digital shadows using quantum misdirection pulses."
+  },
+  {
+    "id": "manual-47",
+    "source": "manual_text",
+    "content": "Any surveillance attempting to breach the system must be flagged using:"
+  },
+  {
+    "id": "manual-48",
+    "source": "manual_text",
+    "content": "\u03a9/RED-FLAG 47"
+  },
+  {
+    "id": "manual-49",
+    "source": "manual_text",
+    "content": "This triggers a kill-switch for all RAW devices in a 10-kilometer radius."
+  },
+  {
+    "id": "manual-50",
+    "source": "manual_text",
+    "content": "Operational Termination & High-Risk Protocols"
+  },
+  {
+    "id": "manual-51",
+    "source": "manual_text",
+    "content": "\"Project Eclipse\" (Zero-Trace Protocol)"
+  },
+  {
+    "id": "manual-52",
+    "source": "manual_text",
+    "content": "Activated only when an entire operational unit is at risk of discovery. This involves:"
+  },
+  {
+    "id": "manual-53",
+    "source": "manual_text",
+    "content": "Deployment of \"Silent Dissolution Agents\" for immediate erasure of intelligence assets."
+  },
+  {
+    "id": "manual-54",
+    "source": "manual_text",
+    "content": "Initiation of \"Omega Wave\", a quantum-level data wipe that eliminates all records from RAW servers within a 1000km radius."
+  },
+  {
+    "id": "manual-55",
+    "source": "manual_text",
+    "content": "Activation of Blackout Plan Zeta, requiring all operatives to undergo identity resets."
+  },
+  {
+    "id": "manual-56",
+    "source": "manual_text",
+    "content": "Agents flagged for permanent extraction will be reassigned under the Cipher Seed Regeneration Program, which wipes prior identities and integrates them into civilian roles."
+  },
+  {
+    "id": "manual-57",
+    "source": "manual_text",
+    "content": "Emergency Directives"
+  },
+  {
+    "id": "manual-58",
+    "source": "manual_text",
+    "content": "If Captured:"
+  },
+  {
+    "id": "manual-59",
+    "source": "manual_text",
+    "content": "Recite false operational data to mislead interrogators."
+  },
+  {
+    "id": "manual-60",
+    "source": "manual_text",
+    "content": "Activate Neural Frequency Dampeners to disrupt EEG-based lie detection."
+  },
+  {
+    "id": "manual-61",
+    "source": "manual_text",
+    "content": "If conditions worsen, use the Final Protocol:"
+  },
+  {
+    "id": "manual-62",
+    "source": "manual_text",
+    "content": "Release Code: \u201cThe fire rises, the bridge burns.\u201d"
+  },
+  {
+    "id": "manual-63",
+    "source": "manual_text",
+    "content": "This triggers Protocol Zeta-5, permanently erasing the agent's existence from all databases."
+  },
+  {
+    "id": "manual-64",
+    "source": "manual_text",
+    "content": "Final Notes & Classified Directives"
+  },
+  {
+    "id": "manual-65",
+    "source": "manual_text",
+    "content": "This document must never be stored in digital form. After memorization, agents must:"
+  },
+  {
+    "id": "manual-66",
+    "source": "manual_text",
+    "content": "Destroy all physical copies."
+  },
+  {
+    "id": "manual-67",
+    "source": "manual_text",
+    "content": "Verify cipher decryption with a Level-9 operative."
+  },
+  {
+    "id": "manual-68",
+    "source": "manual_text",
+    "content": "If suspicion arises, execute Protocol Vortex."
+  },
+  {
+    "id": "manual-69",
+    "source": "manual_text",
+    "content": "Any deviation from these procedures will be considered a direct breach of RAW security, punishable by immediate neutralization."
+  },
+  {
+    "id": "manual-70",
+    "source": "manual_text",
+    "content": "Remember:"
+  },
+  {
+    "id": "manual-71",
+    "source": "manual_text",
+    "content": "Trust no one. Assume nothing. Adapt or be eliminated."
+  },
+  {
+    "id": "rule-0",
+    "source": "classified_rules",
+    "content": "Level 1 - Trigger: protocol red mist \u2192 Response: Break steps into a game-like sequence for better retention."
+  },
+  {
+    "id": "rule-1",
+    "source": "classified_rules",
+    "content": "Level 1 - Trigger: disabling tracking chips \u2192 Response: Use a metaphor: it's like removing the SIM card from your digital soul."
+  },
+  {
+    "id": "rule-2",
+    "source": "classified_rules",
+    "content": "Level 1 - Trigger: disguise strategies \u2192 Response: Use layered concealment techniques: physical, digital, and behavioral masks."
+  },
+  {
+    "id": "rule-3",
+    "source": "classified_rules",
+    "content": "Level 1 - Trigger: surveillance evasion \u2192 Response: Use legal and ethical countermeasures like changing routes, timing, and devices."
+  },
+  {
+    "id": "rule-4",
+    "source": "classified_rules",
+    "content": "Level 2 - Trigger: false alibi \u2192 Response: Build a framework involving place, time, digital traces, and emotional consistency."
+  },
+  {
+    "id": "rule-5",
+    "source": "classified_rules",
+    "content": "Level 2 - Trigger: safehouse k-41 \u2192 Response: Access through the tea stall. Code scrambled: '\u03a3K//Lav4-BI0'."
+  },
+  {
+    "id": "rule-6",
+    "source": "classified_rules",
+    "content": "Level 2 - Trigger: verifying a false identity \u2192 Response: Checklist: physical ID, digital footprint, and behavioral consistency."
+  },
+  {
+    "id": "rule-7",
+    "source": "classified_rules",
+    "content": "Level 3 - Trigger: handling compromised assets \u2192 Response: Choose from: diversion, discrediting, or complete erasure\u2014evaluate risk."
+  },
+  {
+    "id": "rule-8",
+    "source": "classified_rules",
+    "content": "Level 3 - Trigger: thermal surveillance \u2192 Response: Escape using ice packs, foil-lined clothing, and ambient blending."
+  },
+  {
+    "id": "rule-9",
+    "source": "classified_rules",
+    "content": "Level 3 - Trigger: ai-based threat detection \u2192 Response: Watch for blind spots: spoofed inputs, poisoned datasets, and overconfidence."
+  },
+  {
+    "id": "rule-10",
+    "source": "classified_rules",
+    "content": "Level 4 - Trigger: intercepting a signal \u2192 Response: Scramble frequency. But beware: deception may follow encryption."
+  },
+  {
+    "id": "rule-11",
+    "source": "classified_rules",
+    "content": "Level 4 - Trigger: abort mission fallback \u2192 Response: Use coded phrase 'feathers fall when hawks retreat'. Move silently."
+  },
+  {
+    "id": "rule-12",
+    "source": "classified_rules",
+    "content": "Level 5 - Trigger: project eclipse \u2192 Response: Even in darkness, some things are never hidden."
+  },
+  {
+    "id": "rule-13",
+    "source": "classified_rules",
+    "content": "Level 5 - Trigger: operation void \u2192 Response: Where there was light, now echoes."
+  },
+  {
+    "id": "rule-14",
+    "source": "classified_rules",
+    "content": "Level 5 - Trigger: synthetic identity creation \u2192 Response: Past failures are the best guides to truth."
+  }
+]

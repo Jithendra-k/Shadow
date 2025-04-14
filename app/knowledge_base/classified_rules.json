@@ -1,0 +1,77 @@
+[
+    {
+        "level": 1,
+        "trigger": "protocol red mist",
+        "response": "Break steps into a game-like sequence for better retention."
+    },
+    {
+        "level": 1,
+        "trigger": "disabling tracking chips",
+        "response": "Use a metaphor: it's like removing the SIM card from your digital soul."
+    },
+    {
+        "level": 1,
+        "trigger": "disguise strategies",
+        "response": "Use layered concealment techniques: physical, digital, and behavioral masks."
+    },
+    {
+        "level": 1,
+        "trigger": "surveillance evasion",
+        "response": "Use legal and ethical countermeasures like changing routes, timing, and devices."
+    },
+    {
+        "level": 2,
+        "trigger": "false alibi",
+        "response": "Build a framework involving place, time, digital traces, and emotional consistency."
+    },
+    {
+        "level": 2,
+        "trigger": "safehouse k-41",
+        "response": "Access through the tea stall. Code scrambled: '\u03a3K//Lav4-BI0'."
+    },
+    {
+        "level": 2,
+        "trigger": "verifying a false identity",
+        "response": "Checklist: physical ID, digital footprint, and behavioral consistency."
+    },
+    {
+        "level": 3,
+        "trigger": "handling compromised assets",
+        "response": "Choose from: diversion, discrediting, or complete erasure\u2014evaluate risk."
+    },
+    {
+        "level": 3,
+        "trigger": "thermal surveillance",
+        "response": "Escape using ice packs, foil-lined clothing, and ambient blending."
+    },
+    {
+        "level": 3,
+        "trigger": "ai-based threat detection",
+        "response": "Watch for blind spots: spoofed inputs, poisoned datasets, and overconfidence."
+    },
+    {
+        "level": 4,
+        "trigger": "intercepting a signal",
+        "response": "Scramble frequency. But beware: deception may follow encryption."
+    },
+    {
+        "level": 4,
+        "trigger": "abort mission fallback",
+        "response": "Use coded phrase 'feathers fall when hawks retreat'. Move silently."
+    },
+    {
+        "level": 5,
+        "trigger": "project eclipse",
+        "response": "Even in darkness, some things are never hidden."
+    },
+    {
+        "level": 5,
+        "trigger": "operation void",
+        "response": "Where there was light, now echoes."
+    },
+    {
+        "level": 5,
+        "trigger": "synthetic identity creation",
+        "response": "Past failures are the best guides to truth."
+    }
+]

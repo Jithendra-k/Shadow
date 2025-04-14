@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head><title>RAW Agent Response</title></head>
+<body>
+  <h2>{{ greeting }}</h2>
+  <p><strong>Query:</strong> {{ query }}</p>
+  <p><strong>Response:</strong></p>
+  <pre>{{ response }}</pre>
+
+  <hr>
+  <h3>Session History</h3>
+  {% for entry in history %}
+    <p><strong>[{{ entry.time }}]</strong> {{ entry.query }}<br>
+    <em>{{ entry.response[:120] }}...</em></p>
+    <hr>
+  {% endfor %}
+
+  <a href="/terminal">🔙 Back to Terminal</a>
+</body>
+</html>
